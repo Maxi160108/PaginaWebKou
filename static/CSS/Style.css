@@ -77,6 +77,39 @@
     .hamburger{display:none;cursor:pointer;font-size:20px;padding:6px}
     .mobile-menu{display:none;padding:12px 0}
 
+    /* Estilos base */
+    .mobile-menu {
+    display: none; 
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+    background: white; /* o el color que quieras */
+    position: absolute;
+    top: 60px; /* debajo del header */
+    right: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .mobile-menu a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    }
+
+    /* Para pantallas grandes NO se usa */
+    @media (min-width: 820px) {
+    .mobile-menu {
+        display: none !important;
+    }
+    }
+
+    .mobile-menu.open {
+        display: flex;
+    }
+
+
     /* Hero */
     .hero{
       padding-top:120px;

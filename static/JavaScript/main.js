@@ -116,8 +116,7 @@
     const burger = document.getElementById('burger');
     const mobileMenu = document.getElementById('mobileMenu');
     burger.addEventListener('click', ()=>{
-      const isOpen = mobileMenu.style.display === 'block';
-      mobileMenu.style.display = isOpen ? 'none' : 'block';
+      mobileMenu.classList.toggle('open');
     });
     burger.addEventListener('keydown', (e)=>{ if(e.key==='Enter' || e.key===' ') burger.click(); });
 
