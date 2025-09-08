@@ -29,10 +29,10 @@ Los objetivos específicos incluyen:
 
 ## Nuestro contacto
 
-## Desarrollador FrondEnd
+### Desarrollador FrondEnd
 
 - maxdiaz160108@gmail.com
 
-##  CEO
+###  CEO
 
 - Lyng2630@gmail.com
