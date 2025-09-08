@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kou — Mundo Kou · Catálogo</title>
+  <link rel="icon" href="static/resources/img/icon/Kou.ico">
+  <!-- Tipografías: serif para títulos, sans para UI -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/CSS/Style.css">
+</head>
+<body>
+
+  <header id="siteHeader" aria-label="Cabecera principal">
+    <div class="container nav" role="navigation" aria-label="Navegación principal">
+      <div style="display:flex;align-items:center;gap:22px">
+        <div class="brand" aria-hidden="false">
+          <div class="logo" id="logo">Kou</div>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#novedades" class="navlink">Novedades</a></li>
+            <li><a href="#zapatillas" class="navlink">Zapatillas</a></li>
+            <li><a href="#contacto" class="navlink">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="actions" aria-hidden="false">
+        <a class="cta" href="#zapatillas">Comprar</a>
+        <button class="hamburger" id="burger" aria-label="Abrir menú móvil">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile-menu container" id="mobileMenu" style="display:none">
+      <a href="#novedades">Novedades</a><br>
+      <a href="#zapatillas">Zapatillas</a><br>
+      <a href="#contacto">Contacto</a>
+    </div>
+  </header>
+
+  <main class="container" id="mainContent" style="padding-bottom:60px;">
+
+    <!-- HERO -->
+    <section class="hero" id="novedades" aria-label="Hero Kou">
+      <div>
+        <div class="eyebrow">Edición · Colección</div>
+        <h1>Kou — Resplandece cada dia con Kou.</h1>
+        <p>Explora la colección de zapatillas de Kou: diseño editorial, materiales seleccionados y cortes limitados. Navega, filtra y descubre tu próximo par.</p>
+      </div>
+
+      <div class="hero-card" aria-hidden="false">
+        <img src="static/resources/img/icon/logo.ico" alt="Hero Kou">
+        <div class="label">
+          <strong style="font-size:18px">Nueva Temporada</strong>
+          <div class="muted-xx">Colección primavera · edición limitada</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ZAPATILLAS -->
+    <section id="zapatillas" aria-label="Sección zapatillas">
+      <h2 class="section-title">Zapatillas</h2>
+
+      <div class="grid" id="products" aria-live="polite" aria-atomic="true">
+        <!-- JS inyectará 20 cards aquí -->
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" aria-label="Contacto Kou">
+      <h2 class="section-title">Contacto</h2>
+      <p class="muted">Escríbenos o síguenos en redes — respondemos en menos de 48 horas.</p>
+
+      <div class="contacts" style="margin-top:12px">
+        <div class="contact-card">
+          <h4>Email</h4>
+          <div class="muted"><a href="mailto:Mundokou.Contacto@gmail.com">Mundokou.Contacto@gmail.com</a></div>
+        </div>
+
+        <div class="contact-card">
+          <h4>Teléfono</h4>
+          <div class="muted"><a href="tel:+573150569787">+57 315 0569787</a></div>
+        </div>
+
+        <div class="contact-card">
+          <h4>Instagram</h4>
+          <div class="muted"><a href="https://instagram.com/mundokou" target="_blank" rel="noopener">@mundokou</a></div>
+        </div>
+      </div>
+    </section>
+
+    <footer aria-label="Pie de página">
+      <div class="muted">© Kou — Todos los derechos reservados</div>
+    </footer>
+  </main>
+
+  <!-- Product Quick View Modal -->
+  <div id="modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="panel" role="document">
+      <div class="left"><img id="modalImg" src="" alt=""></div>
+      <div class="right">
+        <button class="close-btn" id="closeModal" aria-label="Cerrar">✕</button>
+        <h3 id="modalName">Nombre producto</h3>
+        <div class="muted" id="modalPrice">$0</div>
+        <p style="margin-top:12px;color:var(--muted)">Descripción corta del modelo. Materiales, inspiración y tallas disponibles.</p>
+        <div style="margin-top:18px;display:flex;gap:10px;align-items:center">
+          <label>Talla
+            <select style="margin-left:8px;padding:8px;border-radius:6px;border:1px solid rgba(0,0,0,0.08)">
+              <option>38</option><option>39</option><option>40</option><option>41</option>
+            </select>
+          </label>
+          <button class="cta" style="margin-left:auto">Añadir al carrito</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Template in JS (no visible) -->
+  <script src="static/JavaScript/main.js"></script>
+</body>
+</html>
