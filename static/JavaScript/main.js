@@ -1,6 +1,6 @@
 /* ---------- Datos de 20 zapatillas (nombre + precio + imagen) ---------- */
     const products = [
-      {name:'Kou Runner 01', img:'static/resources/img/images/zapatillas/adidas_campus.jpg'},
+      {name:'Kou Runner 01',  img:'static/resources/img/images/zapatillas/adidas_campus.jpg'},
       {name:'Kou Runner 02', img:'static/resources/img/images/zapatillas/adidas_depport.jpg'},
       {name:'Kou Court 03', img:'static/resources/img/images/zapatillas/adidas_depport(other designer).jpg'},
       {name:'Kou Leather 04', img:'static/resources/img/images/zapatillas/adidas_samba.jpg'},
