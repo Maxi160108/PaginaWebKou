@@ -7,7 +7,7 @@
       {name:'Kou Low 05', img:'static/resources/img/images/zapatillas/adidas_superstar.jpg'},
       {name:'Kou High 06', img:'static/resources/img/images/zapatillas/converse_allstar.jpg'},
     {name:'Kou Sport 07', img:'static/resources/img/images/zapatillas/McQUENN.jpg'},
-      {name:'Kou Lux 08', img:'static/resources/img/images/zapatillas/N_530_v2(other style).jpg'},
+      {name:'Kou Lux 08', img:'static/resources/img/images/zapatillas/N_530_v2(other designer).jpg'},
       {name:'Kou Street 09', img:'static/resources/img/images/zapatillas/N_530_V2(pink).jpg'},
       {name:'Kou Retro 10', img:'static/resources/img/images/zapatillas/N_530(silver).jpg'},
       {name:'Kou Prime 11', img:'static/resources/img/images/zapatillas/N_530(skyblue()).jpg'},
